@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta name="viewport" 
+	        content="width=device-width, initial-scale=1.0">
+	<title>My Animation website</title>
+
+</head>
+<body>
+<!--  =========CSS Files======== -->
+	<link rel="stylesheet" type="text/css" 
+	      href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" 
+	      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css">
+  
+  <!-- ======Navbar====== -->
+<header>
+  <div class="header-top clearfix">
+   	<div class="l-left logo">
+   	<a href="#home">
+   		<span>Gul</span><span>Bahar</span>
+   		<img src="http://imvery.moe/img/Coding%20app.png">
+   	</a>
+   </div>
+    <a class="l-right toggle-menu" href="#">
+      <i></i>
+      <i></i>
+      <i></i>
+    </a>
+  </div>
+
+  <nav class="hide">
+    <ul id="menu">
+      <li data-menuanchor="home">
+        <a href="#home" title="Home">Home</a>
+      </li>
+      <li data-menuanchor="about">
+        <a href="#about" title="About">About</a>
+      </li>
+      <li data-menuanchor="service">
+        <a href="#service" title="Service">Service</a>
+      </li>
+      <li data-menuanchor="contact">
+        <a href="#contact" title="Contact">Contact</a>
+      </li>
+      <li data-menuanchor="contact/1">
+        <a href="#contact/1" title="Message">Message</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+<div class="overly"></div>
+<!-- ======Full Pages======= -->
+<div id="fullpage">
+  <!-- ========== Home Page==== -->
+  <section class="vertical-scrolling" id="home">
+  	<div class="nav-title">
+  		<h1>Home</h1>
+  	</div>
+  	   <div>
+  	   	 <img src="http://imvery.moe/img/Coding%20app.png" style="width: 100px">
+	    <h2>
+		 <a href="#" 
+		    class="typewrite" 
+		    data-period="2000" 
+		    data-type='[ "Hi, I am Gulbahar .", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+		    <span class="wrap"></span>
+		  </a>
+	    </h2>
+  	   </div>
+
+    <div class="scroll-icon">
+      <a href="#about" class="icon-up-open-big">
+      	<i class="fa fa-book"></i>
+      </a>
+    </div>
+  </section>
+  <!-- ========== About Page==== -->
+  <section class="vertical-scrolling" id="about">
+  	<div class="nav-title">
+  		<h1>About</h1>
+  	</div>
+    <h2>fullPage.js</h2>
+    <h3>about</h3>
+  </section>
+  <!-- ========== Service Page==== -->
+  <section class="vertical-scrolling" id="service">
+  	<div class="nav-title">
+  		<h1>Service</h1>
+  	</div>
+    <h2>fullPage.js</h2>
+    <h3>This is the third section</h3>
+  </section>
+  <!-- ========== Contact | Message Page==== -->
+  <section class="vertical-scrolling">
+  	<!--  contact -->
+    <div class="horizontal-scrolling">
+     <div class="nav-title">
+  		<h1>Contact</h1>
+  	</div>
+      <h2>fullPage.js</h2>
+      <h3>This is the fifth section and it contains the first slide (actually section == first slide)</h3>
+    </div>
+    <!--  Message -->
+    <div class="horizontal-scrolling">
+      <h2>fullPage.js</h2>
+      <h3>This is the second slide</h3> 
+      <p class="end">Thank you!</p>
+    </div>
+  </section>
+
+</div>
+<!-- ========JS Files========= -->
+<script type="text/javascript" 
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script type="text/javascript" 
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+<script type="text/javascript" 
+        src="assets/js/index.js"></script>
+</body>
+</html>
